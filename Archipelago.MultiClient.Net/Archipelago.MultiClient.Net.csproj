@@ -66,6 +66,12 @@
 		</Reference>
 	</ItemGroup>
 
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+		<Reference Include="websocket-sharp">
+			<HintPath>..\DLLs\T-websocket-sharp\websocket-sharp.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0' Or '$(TargetFramework)' == 'net6.0'">
 		<Reference Include="Newtonsoft.Json">
 			<HintPath>..\DLLs\netstandard2.0\Newtonsoft.Json.dll</HintPath>
