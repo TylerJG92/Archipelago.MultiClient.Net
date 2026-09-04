@@ -1,4 +1,4 @@
-﻿#if NET35 || NET40 || NETSTANDARD2_0
+﻿#if NET35 || NET40 || NETSTANDARD2_0 || NET45
 using Archipelago.MultiClient.Net.Converters;
 using Archipelago.MultiClient.Net.Exceptions;
 using Archipelago.MultiClient.Net.Extensions;
