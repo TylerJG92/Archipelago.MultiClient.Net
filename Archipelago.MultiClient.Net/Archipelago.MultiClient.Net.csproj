@@ -68,7 +68,7 @@
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
 		<Reference Include="websocket-sharp">
-			<HintPath>..\DLLs\T-websocket-sharp\websocket-sharp.dll</HintPath>
+			<HintPath>..\DLLs\websocket-sharp.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 
