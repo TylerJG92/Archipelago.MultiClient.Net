@@ -56,7 +56,7 @@
 			<HintPath>..\DLLs\net40\Newtonsoft.Json.dll</HintPath>
 		</Reference>
 		<Reference Include="websocket-sharp">
-			<HintPath>..\DLLs\net35\websocket-sharp.dll</HintPath>
+			<HintPath>..\DLLs\net35\websocket-sharp.dll</HintPath> <!-- NOTE: `net40` uses the same websocket-sharp.dll as `net35`, this is INTENTIONAL-->
 		</Reference>
 	</ItemGroup>
 
