@@ -123,7 +123,7 @@ namespace Archipelago.MultiClient.Net
 	/// </summary>
 	public partial class ArchipelagoSession : IArchipelagoSession
     {
-        const int ArchipelagoConnectionTimeoutInSeconds = 4;
+        const int ArchipelagoConnectionTimeoutInSeconds = 10;
 
 		/// <inheritdoc/>
 		public IArchipelagoSocketHelper Socket { get; }
